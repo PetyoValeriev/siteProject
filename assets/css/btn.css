@@ -1,0 +1,20 @@
+.btn{
+	padding: 15px 30px;
+	border-radius: 0;
+	-webkit-transition: border-color 0.4s, color 0.4s;
+	transition: border-color 0.4s, color 0.4s;
+}
+
+.btn-primary{
+	background: #fa5c58;
+	border-width: 2px;
+	color: #fff;
+	border-color: #fa5c58;
+}
+
+.btn-primary:hover,
+.btn-primary:focus{
+	background: #fff;
+	color: #fa5c58;
+	border-color: #fe4a46;
+}

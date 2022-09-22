@@ -1,0 +1,44 @@
+.logo{
+	position: absolute;
+	left: 15px;
+	top: 15px;
+}
+
+.jumbotron{
+	text-align: center;
+	position: relative;
+	background: url('../img/bg.jpg');
+	background-size: cover;
+	color: #fff;
+}
+/* header darker */
+.jumbotron .mask{
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #333;
+	opacity: 0.5;
+}
+
+.jumbotron p{
+	color: #fff;
+}
+
+.jumbotron .container{
+	margin-top: 20%;
+}
+
+.jumbotron h1{
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.header-info{
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
